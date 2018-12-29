@@ -1,15 +1,7 @@
-import urllib.request
 from bs4 import BeautifulSoup
-import json
 import requests
 import re
 import pandas as pd
-import time
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
-
-
 
 # data extraction
 def html_parsing(line):
