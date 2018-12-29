@@ -5,12 +5,12 @@ import pandas as pd
 
 
 # data extraction
-def html_parsing(line):
-    title = line.find("a", class_=re.compile('title*')).text
-    time_submitted_obj = line.find("time")
+def html_parsing(input_line):
+    title = input_line.find("a", class_=re.compile('title*')).text
+    time_submitted_obj = input_line.find("time")
     time_sub = time_submitted_obj['datetime']
-    author = line.find("a", class_='author').text
-    comments = line.find("a", class_=('bylink'))['href']
+    author = input_line.find("a", class_='author').text
+    comments = input_line.find("a", class_='bylink')['href']
     return [title, time_sub, author, comments]
 
 
