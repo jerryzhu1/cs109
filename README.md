@@ -61,5 +61,6 @@
 * Code: ./Lab5/Lab5-*.ipynb   
 * Some tricks (for python 3):
     * Use build-in function sklearn.model_selection.cross_val_score instead of cv_score
-    * TODO
+
+
 
