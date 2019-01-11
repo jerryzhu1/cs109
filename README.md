@@ -62,5 +62,13 @@
 * Some tricks (for python 3):
     * Use build-in function sklearn.model_selection.cross_val_score instead of cv_score
 
+<br>
+
+## HW 2 (Election prediction):
+* Code: ./HW2_Jerry.ipynb   
+* Fixed some functions in origin material
+* Some tricks (for python 3):
+    * Inline loop is very helpful when doing plot 
+ 
 
 
